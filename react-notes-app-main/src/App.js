@@ -5,7 +5,7 @@ import NotesList from './components/NotesList';
 import Search from './components/Search';
 import Header from './components/Header';
 const App = () => {
-  const [notes, setNotes] = useState([
+const [notes, setNotes] = useState([
 
   
   {
