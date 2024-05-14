@@ -6,7 +6,8 @@ import Search from './components/Search';
 import Header from './components/Header';
 const App = () => {
   const [notes, setNotes] = useState([
-    
+
+  
   {
     id: nanoid(),
     text: "This is my first note!",
