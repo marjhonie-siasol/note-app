@@ -7,7 +7,6 @@ import Header from './components/Header';
 const App = () => {
 const [notes, setNotes] = useState([
 
-  
   {
     id: nanoid(),
     text: "This is my first note!",
@@ -59,7 +58,6 @@ const deleteNote = (id) => {
   const newNotes = notes.filter((note)=> note.id !== id);
   setNotes(newNotes);
 }
-
   return ( 
     <div className={`${darkMode && 'dark-mode'}`}>
       <div className="container">
