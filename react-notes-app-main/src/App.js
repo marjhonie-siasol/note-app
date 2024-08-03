@@ -23,7 +23,6 @@ const [notes, setNotes] = useState([
   },
 ]);
 
-  
 const [searchText, setSearchText] = useState('');
 
 const [darkMode, setDarkMode] = useState(false);
